@@ -8,5 +8,12 @@ namespace _2do_Parcial_LP2.Clases
 {
     internal class Gastos
     {
+        private int idGastos { get; set; }
+        private int NumeroCaja { get; set; }
+        private string ConceptoGasto { get; set; } = null!;
+        private decimal TotalGasto { get; set; }
+        private string QuienRecibe { get; set; } = null!;
+        private string QuienAutorizoGasto { get; set; } = null!;
+
     }
 }
