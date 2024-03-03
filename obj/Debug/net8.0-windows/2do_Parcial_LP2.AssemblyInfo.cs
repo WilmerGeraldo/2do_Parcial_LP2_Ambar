@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2do_Parcial_LP2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+177789a6e2c697da013f445db75cff5de59a4f8c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588aa3d03083e1e40498abcef92686ed681bb0d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("2do_Parcial_LP2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2do_Parcial_LP2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

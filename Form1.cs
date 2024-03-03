@@ -15,12 +15,12 @@ namespace _2do_Parcial_LP2
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            pbar.Value += 1;
+            pbar.Value += 2;
             pbar.Text = pbar.Value.ToString() + "%";
             if (pbar.Value == 100)
             {
                 timer1.Enabled = false;
-            }
+            }  
         }
     }
 }
