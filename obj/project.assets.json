@@ -119,19 +119,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2\\2do_Parcial_LP2.csproj",
+      "projectUniqueName": "C:\\Aplicaciones-2024-0806\\Practica 2\\2do_Parcial_LP2.csproj",
       "projectName": "2do_Parcial_LP2",
-      "projectPath": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2\\2do_Parcial_LP2.csproj",
-      "packagesPath": "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\",
-      "outputPath": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2\\obj\\",
+      "projectPath": "C:\\Aplicaciones-2024-0806\\Practica 2\\2do_Parcial_LP2.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Aplicaciones-2024-0806\\Practica 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wilmer Geraldo Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
