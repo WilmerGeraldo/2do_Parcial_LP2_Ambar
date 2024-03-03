@@ -66,3 +66,4 @@ C:\Users\Wilmer Geraldo Reyes\Source\Repos\2do_Parcial_LP2_Ambar\obj\Debug\net8.
 C:\Users\Wilmer Geraldo Reyes\Source\Repos\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.dll
 C:\Users\Wilmer Geraldo Reyes\Source\Repos\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\refint\2do_Parcial_LP2.dll
 C:\Users\Wilmer Geraldo Reyes\Source\Repos\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.pdb
+C:\Aplicaciones-2024-0806\Practica 2\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Forms.Empleados.resources

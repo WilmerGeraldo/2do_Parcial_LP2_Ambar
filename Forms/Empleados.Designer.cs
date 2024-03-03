@@ -29,22 +29,42 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            txtNombre = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(344, 80);
+            label1.Location = new Point(273, 54);
             label1.Name = "label1";
             label1.Size = new Size(174, 25);
             label1.TabIndex = 0;
             label1.Text = "Registrar Empleados";
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(351, 159);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(133, 31);
+            txtNombre.TabIndex = 1;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(227, 165);
+            label2.Name = "label2";
+            label2.Size = new Size(78, 25);
+            label2.TabIndex = 2;
+            label2.Text = "Nombre";
             // 
             // Empleados
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
+            Controls.Add(txtNombre);
             Controls.Add(label1);
             Name = "Empleados";
             Text = "Empleados";
@@ -55,5 +75,7 @@
         #endregion
 
         private Label label1;
+        private TextBox txtNombre;
+        private Label label2;
     }
 }

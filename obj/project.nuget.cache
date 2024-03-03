@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3IQTI8Oe1rTeYEbb357yit+AAZiHSlKNRERYwY+EqwYorjMaOYTwkdgR0RNdXSexxcqR3Y/CqqEH7tulAecraw==",
+  "dgSpecHash": "hnXcOfks+noevSvkxWe4UgCSXLCwUxHl5cTZRFmYWSXSHcBMzmWAFQ9uKRi1Ssp5XdG3C3Z1wVDSPvWWM+Nbeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
+  "projectFilePath": "C:\\Aplicaciones-2024-0806\\Practica 2\\2do_Parcial_LP2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
-    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar_net5\\3.0.0\\circularprogressbar_net5.3.0.0.nupkg.sha512",
-    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512",
-    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\winformanimation-net5\\2.0.0\\winformanimation-net5.2.0.0.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\circularprogressbar_net5\\3.0.0\\circularprogressbar_net5.3.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\winformanimation-net5\\2.0.0\\winformanimation-net5.2.0.0.nupkg.sha512"
   ],
   "logs": [
     {
