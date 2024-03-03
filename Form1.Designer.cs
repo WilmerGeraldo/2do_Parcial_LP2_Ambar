@@ -33,6 +33,7 @@
             pbar = new CircularProgressBar_NET5.CircularProgressBar();
             timer1 = new System.Windows.Forms.Timer(components);
             pictureBox1 = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -46,7 +47,7 @@
             pbar.InnerColor = Color.Orange;
             pbar.InnerMargin = 2;
             pbar.InnerWidth = -1;
-            pbar.Location = new Point(282, 111);
+            pbar.Location = new Point(428, 97);
             pbar.MarqueeAnimationSpeed = 2000;
             pbar.Name = "pbar";
             pbar.OuterColor = Color.DarkOrange;
@@ -75,20 +76,36 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-33, -4);
+            pictureBox1.Location = new Point(-20, -9);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(368, 456);
+            pictureBox1.Size = new Size(465, 456);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.FlatStyle = FlatStyle.Flat;
+            label1.Font = new Font("Calibri", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(309, 370);
+            label1.Name = "label1";
+            label1.Size = new Size(171, 45);
+            label1.TabIndex = 2;
+            label1.Text = "Loading...";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 128);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(764, 450);
+            Controls.Add(label1);
             Controls.Add(pbar);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
@@ -98,6 +115,7 @@
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -105,5 +123,6 @@
         private CircularProgressBar_NET5.CircularProgressBar pbar;
         private System.Windows.Forms.Timer timer1;
         private PictureBox pictureBox1;
+        private Label label1;
     }
 }
