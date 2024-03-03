@@ -15,7 +15,7 @@ namespace _2do_Parcial_LP2.Clases
         private string Apellido { get; set; } = null!;
         private string Cargo { get; set; } = null!;
         private string Departamento { get; set; } = null!;
-        private DateTime FechaInicioEmpleo { get; set; } = new DateTime(0000, 0, 0);
+        private DateTime FechaInicioEmpleo { get; set; } = DateTime.Now.Date;
         private string CargoEmpleado { get; set; } = null!;
         private string Email { get; set; } = null!;
         private string Direccion { get; set; } = null!;

@@ -13,7 +13,7 @@ namespace _2do_Parcial_LP2.Clases
         private decimal TotalCXC { get; set; }
         private string TiempoPlazo { get; set; } = null!;
         private decimal CuotaDescontar { get; set; }
-        private DateTime FechaPrestamo { get; set; } = new DateTime(0000, 0, 0);
+        private DateTime FechaPrestamo { get; set; } = DateTime.Now.Date;
 
     }
 }
