@@ -24,3 +24,4 @@ C:\Aplicaciones-2024-0879\2do_Parcial_LP2\obj\Debug\net8.0-windows\ref\2do_Parci
 C:\Aplicaciones-2024-0879\2do_Parcial_LP2\bin\Debug\net8.0-windows\CircularProgressBar_NET5.dll
 C:\Aplicaciones-2024-0879\2do_Parcial_LP2\bin\Debug\net8.0-windows\WinFormAnimation_NET5.dll
 C:\Aplicaciones-2024-0879\2do_Parcial_LP2\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Properties.Resources.resources
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Forms.Login.resources
