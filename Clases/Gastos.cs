@@ -13,6 +13,7 @@ namespace _2do_Parcial_LP2.Clases
         private string ConceptoGasto { get; set; } = null!;
         private decimal TotalGasto { get; set; }
         private string QuienRecibe { get; set; } = null!;
+        private DateTime Fecha {  get; set; }
         private string QuienAutorizoGasto { get; set; } = null!;
 
     }

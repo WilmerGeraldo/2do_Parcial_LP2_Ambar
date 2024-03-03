@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "H8hCVIlY9VLl6HoaNz3q+sBW6z2TEGkfCMDo9J/WrO/yi3K+ET1gUpurfRxpAdx02oRGfdbd++Heq+2LkwFiDw==",
+  "success": true,
+  "projectFilePath": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2\\2do_Parcial_LP2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar_net5\\3.0.0\\circularprogressbar_net5.3.0.0.nupkg.sha512",
+    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512",
+    "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\winformanimation-net5\\2.0.0\\winformanimation-net5.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"CircularProgressBar 2.8.0.16\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "CircularProgressBar",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"WinFormAnimation 1.6.0.4\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "WinFormAnimation",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
