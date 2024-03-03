@@ -31,6 +31,7 @@
             label1 = new Label();
             txtNombre = new TextBox();
             label2 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -44,7 +45,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(351, 159);
+            txtNombre.Location = new Point(314, 112);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(133, 31);
             txtNombre.TabIndex = 1;
@@ -52,17 +53,27 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(227, 165);
+            label2.Location = new Point(73, 112);
             label2.Name = "label2";
             label2.Size = new Size(78, 25);
             label2.TabIndex = 2;
             label2.Text = "Nombre";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(352, 335);
+            button1.Name = "button1";
+            button1.Size = new Size(121, 52);
+            button1.TabIndex = 3;
+            button1.Text = "registrar";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Empleados
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(txtNombre);
             Controls.Add(label1);
@@ -77,5 +88,6 @@
         private Label label1;
         private TextBox txtNombre;
         private Label label2;
+        private Button button1;
     }
 }
