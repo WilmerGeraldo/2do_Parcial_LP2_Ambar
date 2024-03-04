@@ -16,5 +16,21 @@ namespace _2do_Parcial_LP2.Forms
         {
             InitializeComponent();
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            if (txtClave.Text == "1826" && cboUsuario.Text == "Wilson" || txtClave.Text == "" && cboUsuario.Text == "Dilone")
+            {
+                MessageBox.Show("Hola");
+                frmEmpleados llama = new frmEmpleados();
+                llama.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("usuario o clave incorrecta");
+            }
+        }
     }
 }

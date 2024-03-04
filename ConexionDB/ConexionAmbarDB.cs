@@ -15,10 +15,10 @@ namespace _2do_Parcial_LP2.ConexionDB
     internal class ConexionAmbarDB
     {
         public MySqlConnection AmbarConex = new MySqlConnection();
-        static string server = "127.0.0.1";
-        static string dataBase = "dbgeraldo_licorstore";
+        static string server = "localhost";
+        static string dataBase = "ambar_comercialdb";
         static string user = "root";
-        static string password = "1604";
+        static string password = "wilsju26";
         static string port = "3306";
 
         static string ConectionString = $"server={server}; database={dataBase}; user={user}; password={password}; port={port}";
