@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Aplicaciones-2024-0806\\Practica 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0806\\Practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0806\\Practica 2\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs",
-              "RelativeToolTip": "Forms\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T01:55:54.423Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs*",
-              "RelativeToolTip": "Forms\\Empleados.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
+              "RelativeToolTip": "Forms\\Empleados.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBgAAACmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T03:14:37.799Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -81,37 +60,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T01:57:27.635Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Clases\\Empleado.cs",
               "RelativeDocumentMoniker": "Clases\\Empleado.cs",
               "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Clases\\Empleado.cs",
               "RelativeToolTip": "Clases\\Empleado.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAACZAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwB0AAACSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T23:45:04.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Empleados.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Forms\\Empleados.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Empleados.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T00:01:51.497Z",
               "EditorCaption": " [Dise\u00F1o]"

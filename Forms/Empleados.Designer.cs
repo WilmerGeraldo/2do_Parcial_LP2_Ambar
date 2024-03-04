@@ -54,8 +54,7 @@
             btnActualizar = new Button();
             cboCargo = new ComboBox();
             btnEliminar = new Button();
-            dateTimePicker1 = new DateTimePicker();
-            txtFechaInicio = new TextBox();
+            dtpFechaInicio = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dgvRegistroEmpleado).BeginInit();
             SuspendLayout();
             // 
@@ -278,26 +277,25 @@
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtpFechaInicio
             // 
-            dateTimePicker1.Location = new Point(778, 389);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(300, 31);
-            dateTimePicker1.TabIndex = 10;
-            // 
-            // txtFechaInicio
-            // 
-            txtFechaInicio.Location = new Point(778, 336);
-            txtFechaInicio.Name = "txtFechaInicio";
-            txtFechaInicio.Size = new Size(196, 31);
-            txtFechaInicio.TabIndex = 1;
+            dtpFechaInicio.CustomFormat = "yyyy/MM/dd";
+            dtpFechaInicio.Format = DateTimePickerFormat.Custom;
+            dtpFechaInicio.Location = new Point(778, 339);
+            dtpFechaInicio.MaxDate = new DateTime(2024, 3, 3, 0, 0, 0, 0);
+            dtpFechaInicio.MinDate = new DateTime(1990, 1, 1, 0, 0, 0, 0);
+            dtpFechaInicio.Name = "dtpFechaInicio";
+            dtpFechaInicio.Size = new Size(196, 31);
+            dtpFechaInicio.TabIndex = 10;
+            dtpFechaInicio.Value = new DateTime(2024, 3, 3, 0, 0, 0, 0);
+            dtpFechaInicio.ValueChanged += dtpFechaInicio_ValueChanged;
             // 
             // frmEmpleados
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1134, 690);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(dtpFechaInicio);
             Controls.Add(btnEliminar);
             Controls.Add(cboCargo);
             Controls.Add(btnActualizar);
@@ -316,7 +314,6 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(txtTelefono);
-            Controls.Add(txtFechaInicio);
             Controls.Add(txtCedula);
             Controls.Add(txtEmail);
             Controls.Add(txtCodigo);
@@ -360,7 +357,6 @@
         private Button btnActualizar;
         private ComboBox cboCargo;
         private Button btnEliminar;
-        private DateTimePicker dateTimePicker1;
-        private TextBox txtFechaInicio;
+        private DateTimePicker dtpFechaInicio;
     }
 }
