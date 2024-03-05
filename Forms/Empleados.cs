@@ -19,22 +19,34 @@ namespace _2do_Parcial_LP2.Forms
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-           
+
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
-            
-            objetoEmpleado.RegistrarEmpleado(txtCodigo.Text, txtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text,dtpFechaInicio.Text,txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
-            objetoEmpleado.MostrarCliente(dgvRegistroEmpleado);
+
+            objetoEmpleado.RegistrarEmpleado(txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
+            objetoEmpleado.MostrarEmpleado(dgvRegistroEmpleado);
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
-            objetoEmpleado.MostrarCliente(dgvRegistroEmpleado);
+            objetoEmpleado.MostrarEmpleado(dgvRegistroEmpleado);
         }
 
-        private void dtpFechaInicio_ValueChanged(object sender, EventArgs e)
+
+
+        private void dgvRegistroEmpleado_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             
+            Clases.Empleado objetoCliente = new Clases.Empleado();
+            objetoCliente.SeleccionarEmpleado(dgvRegistroEmpleado,txtId, txtCodigo, mtxtCedula, txtNombre, txtApellido, cboCargo, txtDepartamento, dtpFechaInicio, txtEmail, txtDireccion, txtTelefono);
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int idEmpleado = int.Parse(txtId.Text);
+            Clases.Empleado objetoCliente = new Clases.Empleado();
+            objetoCliente.ModificarEmpleado(idEmpleado,txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text,dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
+            objetoCliente.MostrarEmpleado(dgvRegistroEmpleado);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace _2do_Parcial_LP2
         }
         private void Tiempo_Carga()
         {
-            pbar.Value += 2;
+            pbar.Value += 4;
             pbar.Text = pbar.Value.ToString() + "%";
             if (pbar.Value == 100)
             {

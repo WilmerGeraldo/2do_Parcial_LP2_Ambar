@@ -45,7 +45,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(289, 14);
+            pictureBox1.Location = new Point(308, 14);
             pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(149, 158);
@@ -55,24 +55,24 @@
             // 
             // txtClave
             // 
-            txtClave.Location = new Point(326, 368);
+            txtClave.Location = new Point(282, 368);
             txtClave.Name = "txtClave";
             txtClave.Size = new Size(200, 31);
-            txtClave.TabIndex = 1;
+            txtClave.TabIndex = 3;
             // 
             // cboUsuario
             // 
             cboUsuario.FormattingEnabled = true;
             cboUsuario.Items.AddRange(new object[] { "Wilson", "Dilone", "Wilmer" });
-            cboUsuario.Location = new Point(326, 224);
+            cboUsuario.Location = new Point(282, 224);
             cboUsuario.Name = "cboUsuario";
             cboUsuario.Size = new Size(200, 33);
-            cboUsuario.TabIndex = 2;
+            cboUsuario.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(216, 232);
+            label1.Location = new Point(204, 228);
             label1.Name = "label1";
             label1.Size = new Size(72, 25);
             label1.TabIndex = 3;
@@ -81,7 +81,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(326, 295);
+            comboBox2.Location = new Point(282, 295);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(200, 33);
             comboBox2.TabIndex = 2;
@@ -89,7 +89,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(216, 303);
+            label2.Location = new Point(198, 299);
             label2.Name = "label2";
             label2.Size = new Size(78, 25);
             label2.TabIndex = 3;
@@ -98,7 +98,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(216, 374);
+            label3.Location = new Point(222, 370);
             label3.Name = "label3";
             label3.Size = new Size(54, 25);
             label3.TabIndex = 3;
@@ -140,7 +140,10 @@
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
