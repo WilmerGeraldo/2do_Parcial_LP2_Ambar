@@ -89,7 +89,7 @@ namespace _2do_Parcial_LP2.Clases
 
             catch (Exception ex)
             {
-                MessageBox.Show("No se logro seleccionar los datos, Error:" + ex.ToString());
+                MessageBox.Show(ex.ToString(),"No se logro seleccionar los datos, Error:" );
             }
 
         }
@@ -114,6 +114,25 @@ namespace _2do_Parcial_LP2.Clases
                 MessageBox.Show(  ex.ToString(),"No se logro modificar los datos, Error:");
             }
 
+        }
+
+        public void EliminarEmpleado(int id)
+        {
+            try
+            {
+                ConexionAmbarDB objetoConexion = new ConexionAmbarDB();
+                String query = "Delete from empleado  where idEmpleado =  '" + id + "';";
+                MySqlCommand myComand = new MySqlCommand(query, objetoConexion.EstablecerConexion());
+                myComand.ExecuteNonQuery();
+                MessageBox.Show("se a eliminado el registro");
+
+                objetoConexion.CerrarConexion();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "No se logro eliminar los datos, Error:");
+            }
         }
     }
 

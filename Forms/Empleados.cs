@@ -36,17 +36,24 @@ namespace _2do_Parcial_LP2.Forms
 
         private void dgvRegistroEmpleado_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            
-            Clases.Empleado objetoCliente = new Clases.Empleado();
-            objetoCliente.SeleccionarEmpleado(dgvRegistroEmpleado,txtId, txtCodigo, mtxtCedula, txtNombre, txtApellido, cboCargo, txtDepartamento, dtpFechaInicio, txtEmail, txtDireccion, txtTelefono);
+
+            Clases.Empleado objetoEmpleado = new Clases.Empleado();
+            objetoEmpleado.SeleccionarEmpleado(dgvRegistroEmpleado, txtId, txtCodigo, mtxtCedula, txtNombre, txtApellido, cboCargo, txtDepartamento, dtpFechaInicio, txtEmail, txtDireccion, txtTelefono);
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
             int idEmpleado = int.Parse(txtId.Text);
-            Clases.Empleado objetoCliente = new Clases.Empleado();
-            objetoCliente.ModificarEmpleado(idEmpleado,txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text,dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
-            objetoCliente.MostrarEmpleado(dgvRegistroEmpleado);
+            Clases.Empleado objetoEmpleado = new Clases.Empleado();
+            objetoEmpleado.ModificarEmpleado(idEmpleado, txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
+            objetoEmpleado.MostrarEmpleado(dgvRegistroEmpleado);
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            int idEmpleado=int.Parse(txtId.Text);
+            Clases.Empleado objetoEmpleado = new Clases.Empleado();
+            objetoEmpleado.EliminarEmpleado(idEmpleado);
         }
     }
 }
