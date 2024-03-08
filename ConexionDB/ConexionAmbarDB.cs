@@ -21,13 +21,24 @@ namespace _2do_Parcial_LP2.ConexionDB
         static string password = "1604";
         static string port = "3306";
 
-        static string ConectionString = $"server={server}; database={dataBase}; user={user}; password={password}; port={port}";
-
         public MySqlConnection EstablecerConexion()
         {
             try
             {
-                if (AmbarConex.State != ConnectionState.Open)
+                if(Environment.UserDomainName == "LAPTOP-573KV0C0")
+                {
+                    server = "localhost";
+                    password = "wilsju26";
+                }
+                else
+                {
+                    server = "127.0.0.1";
+                    password = "1604";
+                }
+
+                string ConectionString = $"server={server}; database={dataBase}; user={user}; password={password}; port={port}";
+
+                if(AmbarConex.State != ConnectionState.Open)
                 {
                     AmbarConex.ConnectionString = ConectionString;
                     AmbarConex.Open();

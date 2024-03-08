@@ -81,3 +81,31 @@ C:\Users\Wilmer Geraldo Reyes\source\repos\WilmerGeraldo\2do_Parcial_LP2_Ambar\o
 C:\Users\Wilmer Geraldo Reyes\source\repos\WilmerGeraldo\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.dll
 C:\Users\Wilmer Geraldo Reyes\source\repos\WilmerGeraldo\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\refint\2do_Parcial_LP2.dll
 C:\Users\Wilmer Geraldo Reyes\source\repos\WilmerGeraldo\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.pdb
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\2do_Parcial_LP2.exe
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\2do_Parcial_LP2.deps.json
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\2do_Parcial_LP2.runtimeconfig.json
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\2do_Parcial_LP2.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\2do_Parcial_LP2.pdb
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\CircularProgressBar.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\CircularProgressBar_NET5.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\WinFormAnimation.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\WinFormAnimation_NET5.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\bin\Debug\net8.0-windows\MySql.Data.xml
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.csproj.AssemblyReference.cache
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Form1.resources
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Forms.frmEmpleados.resources
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Forms.Login.resources
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\_2do_Parcial_LP2.Properties.Resources.resources
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.csproj.GenerateResource.cache
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.AssemblyInfoInputs.cache
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.AssemblyInfo.cs
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.csproj.CoreCompileInputs.cache
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.sourcelink.json
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parc.61F7ACB4.Up2Date
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\refint\2do_Parcial_LP2.dll
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.pdb
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\2do_Parcial_LP2.genruntimeconfig.cache
+C:\Aplicaciones-2024-0879\2do_Parcial_LP2_Ambar\obj\Debug\net8.0-windows\ref\2do_Parcial_LP2.dll
