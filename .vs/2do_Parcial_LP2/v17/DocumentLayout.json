@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Aplicaciones-2024-0806\\Practica 2\\",
+  "WorkspaceRootPath": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0806\\practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\users\\wilmer geraldo reyes\\source\\repos\\wilmergeraldo\\2do_parcial_lp2_ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0806\\Practica 2\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0806\\Practica 2\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0806\\Practica 2\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Empleados.cs [Design]",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs [Design]",
+              "ToolTip": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs [Design]",
               "RelativeToolTip": "Forms\\Empleados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T23:16:52.77Z",
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Empleados.cs",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Empleados.cs",
+              "ToolTip": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeToolTip": "Forms\\Empleados.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAmwC0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -57,15 +57,23 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
@@ -83,10 +91,10 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "Forms\\Login.cs",
               "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Aplicaciones-2024-0806\\Practica 2\\Forms\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T05:38:26.337Z"
             },
@@ -94,9 +102,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0806\\Practica 2\\Clases\\Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
               "RelativeDocumentMoniker": "Clases\\Empleado.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0806\\Practica 2\\Clases\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
               "RelativeToolTip": "Clases\\Empleado.cs",
               "ViewState": "AQIAAG8AAAAAAAAAAAAAAHsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
