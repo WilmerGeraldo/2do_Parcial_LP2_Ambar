@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Th8cM9+CzWs2l3qO+M4oDTyQFoAGCDETuPfYhqLe/vgvDoDbrRSD5N+09w62s7fKRlNNe238M3cbKm8M4pvrQ==",
+  "dgSpecHash": "KFEL7bsMPLSouL+J4ieqd1dtSJ7OTU7n+e0YCrE3dwjcmzrr5GK2Uu7N1X3U/T2ssPv+72zO2TOQBVrUqdWhww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
+  "projectFilePath": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
     "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\circularprogressbar_net5\\3.0.0\\circularprogressbar_net5.3.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj": {}
+    "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj": {
+    "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
+        "projectUniqueName": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
         "projectName": "2do_Parcial_LP2",
-        "projectPath": "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
+        "projectPath": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\2do_Parcial_LP2.csproj",
         "packagesPath": "C:\\Users\\Wilmer Geraldo Reyes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wilmer Geraldo Reyes\\Source\\Repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\obj\\",
+        "outputPath": "C:\\Users\\Wilmer Geraldo Reyes\\source\\repos\\WilmerGeraldo\\2do_Parcial_LP2_Ambar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wilmer Geraldo Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
