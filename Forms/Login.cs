@@ -22,8 +22,8 @@ namespace _2do_Parcial_LP2.Forms
             if (txtClave.Text == "1826" && cboUsuario.Text == "Wilson" || txtClave.Text == "" && cboUsuario.Text == "Dilone")
             {
                 MessageBox.Show("Hola");
-                frmEmpleados llama = new frmEmpleados();
-                llama.Show();
+                Home home = new Home();
+                home.Show();
                 this.Hide();
 
             }

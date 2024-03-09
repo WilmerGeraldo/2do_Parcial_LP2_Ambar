@@ -51,9 +51,16 @@ namespace _2do_Parcial_LP2.Forms
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            int idEmpleado=int.Parse(txtId.Text);
+            int idEmpleado = int.Parse(txtId.Text);
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
             objetoEmpleado.EliminarEmpleado(idEmpleado);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
         }
     }
 }

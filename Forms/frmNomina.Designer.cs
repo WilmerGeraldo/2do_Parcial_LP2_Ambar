@@ -54,6 +54,13 @@
             txtAFP = new TextBox();
             txtDescuentoCXC = new TextBox();
             txtSueldoNeto = new TextBox();
+            btnEliminar = new Button();
+            btnActualizar = new Button();
+            btnModificar = new Button();
+            btnRegistrar = new Button();
+            dataGridView1 = new DataGridView();
+            btnSalir = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -192,7 +199,7 @@
             dtpFechaNomina.Location = new Point(847, 28);
             dtpFechaNomina.Name = "dtpFechaNomina";
             dtpFechaNomina.Size = new Size(122, 23);
-            dtpFechaNomina.TabIndex = 1;
+            dtpFechaNomina.TabIndex = 3;
             // 
             // cboTipoNomina
             // 
@@ -208,7 +215,7 @@
             txtNúmeroNomina.Location = new Point(124, 27);
             txtNúmeroNomina.Name = "txtNúmeroNomina";
             txtNúmeroNomina.Size = new Size(129, 23);
-            txtNúmeroNomina.TabIndex = 3;
+            txtNúmeroNomina.TabIndex = 1;
             // 
             // mtxtCedulaEmpleado
             // 
@@ -217,14 +224,14 @@
             mtxtCedulaEmpleado.Mask = "000-0000000-0";
             mtxtCedulaEmpleado.Name = "mtxtCedulaEmpleado";
             mtxtCedulaEmpleado.Size = new Size(129, 23);
-            mtxtCedulaEmpleado.TabIndex = 5;
+            mtxtCedulaEmpleado.TabIndex = 4;
             // 
             // txtNombreEmpleado
             // 
             txtNombreEmpleado.Location = new Point(198, 133);
             txtNombreEmpleado.Name = "txtNombreEmpleado";
             txtNombreEmpleado.Size = new Size(190, 23);
-            txtNombreEmpleado.TabIndex = 6;
+            txtNombreEmpleado.TabIndex = 5;
             // 
             // txtApellidoEmpleado
             // 
@@ -238,55 +245,141 @@
             txtCargoEmpleado.Location = new Point(198, 227);
             txtCargoEmpleado.Name = "txtCargoEmpleado";
             txtCargoEmpleado.Size = new Size(190, 23);
-            txtCargoEmpleado.TabIndex = 6;
+            txtCargoEmpleado.TabIndex = 7;
             // 
             // txtDepartamento
             // 
             txtDepartamento.Location = new Point(236, 273);
             txtDepartamento.Name = "txtDepartamento";
             txtDepartamento.Size = new Size(190, 23);
-            txtDepartamento.TabIndex = 6;
+            txtDepartamento.TabIndex = 8;
             // 
             // txtSueldoBruto
             // 
             txtSueldoBruto.Location = new Point(651, 83);
             txtSueldoBruto.Name = "txtSueldoBruto";
             txtSueldoBruto.Size = new Size(190, 23);
-            txtSueldoBruto.TabIndex = 6;
+            txtSueldoBruto.TabIndex = 9;
             // 
             // txtSeguroSocial
             // 
             txtSeguroSocial.Location = new Point(651, 135);
             txtSeguroSocial.Name = "txtSeguroSocial";
             txtSeguroSocial.Size = new Size(190, 23);
-            txtSeguroSocial.TabIndex = 6;
+            txtSeguroSocial.TabIndex = 10;
             // 
             // txtAFP
             // 
             txtAFP.Location = new Point(651, 183);
             txtAFP.Name = "txtAFP";
             txtAFP.Size = new Size(190, 23);
-            txtAFP.TabIndex = 6;
+            txtAFP.TabIndex = 11;
             // 
             // txtDescuentoCXC
             // 
             txtDescuentoCXC.Location = new Point(681, 228);
             txtDescuentoCXC.Name = "txtDescuentoCXC";
             txtDescuentoCXC.Size = new Size(190, 23);
-            txtDescuentoCXC.TabIndex = 6;
+            txtDescuentoCXC.TabIndex = 12;
             // 
             // txtSueldoNeto
             // 
             txtSueldoNeto.Location = new Point(651, 275);
             txtSueldoNeto.Name = "txtSueldoNeto";
             txtSueldoNeto.Size = new Size(190, 23);
-            txtSueldoNeto.TabIndex = 6;
+            txtSueldoNeto.TabIndex = 13;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.BackColor = Color.DarkOrange;
+            btnEliminar.FlatAppearance.BorderSize = 0;
+            btnEliminar.FlatStyle = FlatStyle.Flat;
+            btnEliminar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnEliminar.Location = new Point(572, 329);
+            btnEliminar.Margin = new Padding(2);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(92, 32);
+            btnEliminar.TabIndex = 17;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = false;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.BackColor = Color.DarkOrange;
+            btnActualizar.FlatAppearance.BorderSize = 0;
+            btnActualizar.FlatStyle = FlatStyle.Flat;
+            btnActualizar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnActualizar.Location = new Point(460, 329);
+            btnActualizar.Margin = new Padding(2);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(92, 32);
+            btnActualizar.TabIndex = 16;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = false;
+            // 
+            // btnModificar
+            // 
+            btnModificar.BackColor = Color.DarkOrange;
+            btnModificar.FlatAppearance.BorderSize = 0;
+            btnModificar.FlatStyle = FlatStyle.Flat;
+            btnModificar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnModificar.Location = new Point(348, 329);
+            btnModificar.Margin = new Padding(2);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(92, 32);
+            btnModificar.TabIndex = 15;
+            btnModificar.Text = "Modificar";
+            btnModificar.UseVisualStyleBackColor = false;
+            // 
+            // btnRegistrar
+            // 
+            btnRegistrar.BackColor = Color.DarkOrange;
+            btnRegistrar.FlatAppearance.BorderSize = 0;
+            btnRegistrar.FlatStyle = FlatStyle.Flat;
+            btnRegistrar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnRegistrar.Location = new Point(236, 329);
+            btnRegistrar.Margin = new Padding(2);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(92, 32);
+            btnRegistrar.TabIndex = 14;
+            btnRegistrar.Text = "Registrar";
+            btnRegistrar.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.Gray;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(-1, 376);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(1000, 191);
+            dataGridView1.TabIndex = 15;
+            // 
+            // btnSalir
+            // 
+            btnSalir.BackColor = Color.DarkOrange;
+            btnSalir.FlatAppearance.BorderSize = 0;
+            btnSalir.FlatStyle = FlatStyle.Flat;
+            btnSalir.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnSalir.Location = new Point(681, 329);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(92, 32);
+            btnSalir.TabIndex = 18;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
             // 
             // frmNomina
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(998, 566);
+            Controls.Add(btnSalir);
+            Controls.Add(dataGridView1);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnActualizar);
+            Controls.Add(btnModificar);
+            Controls.Add(btnRegistrar);
             Controls.Add(txtDepartamento);
             Controls.Add(txtCargoEmpleado);
             Controls.Add(txtApellidoEmpleado);
@@ -315,6 +408,7 @@
             Controls.Add(label1);
             Name = "frmNomina";
             Text = "Nomina";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -347,5 +441,11 @@
         private TextBox txtAFP;
         private TextBox txtDescuentoCXC;
         private TextBox txtSueldoNeto;
+        private Button btnEliminar;
+        private Button btnActualizar;
+        private Button btnModificar;
+        private Button btnRegistrar;
+        private DataGridView dataGridView1;
+        private Button btnSalir;
     }
 }

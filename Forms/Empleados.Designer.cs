@@ -56,6 +56,7 @@
             dtpFechaInicio = new DateTimePicker();
             txtId = new TextBox();
             mtxtCedula = new MaskedTextBox();
+            btnSalir = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvRegistroEmpleado).BeginInit();
             SuspendLayout();
             // 
@@ -91,13 +92,17 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(208, 232);
+            btnRegistrar.BackColor = Color.DarkOrange;
+            btnRegistrar.FlatAppearance.BorderSize = 0;
+            btnRegistrar.FlatStyle = FlatStyle.Flat;
+            btnRegistrar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnRegistrar.Location = new Point(159, 231);
             btnRegistrar.Margin = new Padding(2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(92, 30);
+            btnRegistrar.Size = new Size(92, 32);
             btnRegistrar.TabIndex = 3;
             btnRegistrar.Text = "Registrar";
-            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.UseVisualStyleBackColor = false;
             btnRegistrar.Click += btnRegistrar_Click;
             // 
             // txtApellido
@@ -259,6 +264,7 @@
             // 
             // dgvRegistroEmpleado
             // 
+            dgvRegistroEmpleado.BackgroundColor = Color.Gray;
             dgvRegistroEmpleado.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvRegistroEmpleado.Location = new Point(0, 277);
             dgvRegistroEmpleado.Margin = new Padding(2);
@@ -270,24 +276,32 @@
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(320, 231);
+            btnModificar.BackColor = Color.DarkOrange;
+            btnModificar.FlatAppearance.BorderSize = 0;
+            btnModificar.FlatStyle = FlatStyle.Flat;
+            btnModificar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnModificar.Location = new Point(271, 231);
             btnModificar.Margin = new Padding(2);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(92, 32);
             btnModificar.TabIndex = 7;
             btnModificar.Text = "Modificar";
-            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.UseVisualStyleBackColor = false;
             btnModificar.Click += btnModificar_Click;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(432, 231);
+            btnActualizar.BackColor = Color.DarkOrange;
+            btnActualizar.FlatAppearance.BorderSize = 0;
+            btnActualizar.FlatStyle = FlatStyle.Flat;
+            btnActualizar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnActualizar.Location = new Point(381, 231);
             btnActualizar.Margin = new Padding(2);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(92, 32);
             btnActualizar.TabIndex = 7;
             btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.UseVisualStyleBackColor = false;
             btnActualizar.Click += btnActualizar_Click;
             // 
             // cboCargo
@@ -301,13 +315,17 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(544, 232);
+            btnEliminar.BackColor = Color.DarkOrange;
+            btnEliminar.FlatAppearance.BorderSize = 0;
+            btnEliminar.FlatStyle = FlatStyle.Flat;
+            btnEliminar.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnEliminar.Location = new Point(493, 231);
             btnEliminar.Margin = new Padding(2);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(92, 32);
             btnEliminar.TabIndex = 9;
             btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.UseVisualStyleBackColor = false;
             btnEliminar.Click += btnEliminar_Click;
             // 
             // dtpFechaInicio
@@ -340,11 +358,27 @@
             mtxtCedula.Size = new Size(129, 23);
             mtxtCedula.TabIndex = 4;
             // 
+            // btnSalir
+            // 
+            btnSalir.BackColor = Color.DarkOrange;
+            btnSalir.FlatAppearance.BorderSize = 0;
+            btnSalir.FlatStyle = FlatStyle.Flat;
+            btnSalir.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btnSalir.Location = new Point(605, 231);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(92, 32);
+            btnSalir.TabIndex = 12;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
+            // 
             // frmEmpleados
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(800, 450);
+            Controls.Add(btnSalir);
             Controls.Add(mtxtCedula);
             Controls.Add(txtId);
             Controls.Add(dtpFechaInicio);
@@ -412,5 +446,6 @@
         private DateTimePicker dtpFechaInicio;
         private TextBox txtId;
         private MaskedTextBox mtxtCedula;
+        private Button btnSalir;
     }
 }
