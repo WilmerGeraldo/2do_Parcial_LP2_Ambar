@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0879\\2do_parcial_lp2_ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|c:\\aplicaciones-2024-0879\\2do_parcial_lp2_ambar\\forms\\frmnomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\frmnomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:forms\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\conexiondb\\conexionambardb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:conexiondb\\conexionambardb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FC5485-53AE-48C2-ABA8-10CC704C25ED}|2do_Parcial_LP2.csproj|solutionrelative:clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +42,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Empleados.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "Empleados.cs [Design]",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\Empleados.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs [Design]",
+              "RelativeToolTip": "Forms\\Empleados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T23:16:52.77Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeDocumentMoniker": "Forms\\Empleados.cs",
               "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Empleados.cs",
               "RelativeToolTip": "Forms\\Empleados.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAewDwAAAAMAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwBkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T03:14:37.799Z",
               "IsPinned": true
@@ -96,7 +99,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "frmNomina.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\frmNomina.cs",
+              "RelativeDocumentMoniker": "Forms\\frmNomina.cs",
+              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\frmNomina.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\frmNomina.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T00:09:36.124Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Home.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Home.cs",
               "RelativeDocumentMoniker": "Forms\\Home.cs",
@@ -107,19 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
-              "RelativeToolTip": "Forms\\Login.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAMwBkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T06:04:08.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ConexionAmbarDB.cs",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\ConexionDB\\ConexionAmbarDB.cs",
               "RelativeDocumentMoniker": "ConexionDB\\ConexionAmbarDB.cs",
@@ -131,7 +134,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
+              "RelativeDocumentMoniker": "Clases\\Empleado.cs",
+              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
+              "RelativeToolTip": "Clases\\Empleado.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwBoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:45:04.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Forms\\Login.cs",
+              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
+              "RelativeToolTip": "Forms\\Login.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAMwBkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:04:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "Forms\\Login.cs",
@@ -139,18 +166,6 @@
               "RelativeToolTip": "Forms\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T05:38:26.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
-              "RelativeDocumentMoniker": "Clases\\Empleado.cs",
-              "ToolTip": "C:\\Aplicaciones-2024-0879\\2do_Parcial_LP2_Ambar\\Clases\\Empleado.cs",
-              "RelativeToolTip": "Clases\\Empleado.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHsAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T23:45:04.611Z"
             }
           ]
         }

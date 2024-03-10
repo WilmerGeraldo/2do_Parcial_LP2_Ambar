@@ -22,7 +22,8 @@ namespace _2do_Parcial_LP2.Forms
 
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
 
-            objetoEmpleado.RegistrarEmpleado(txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
+            objetoEmpleado.RegistrarEmpleado(mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text,
+                txtTelefono.Text, objetoEmpleado.SueldoBruto = Convert.ToUInt32(txtSueldoBruto.Text));
             objetoEmpleado.MostrarEmpleado(dgvRegistroEmpleado);
         }
 
@@ -38,14 +39,14 @@ namespace _2do_Parcial_LP2.Forms
         {
 
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
-            objetoEmpleado.SeleccionarEmpleado(dgvRegistroEmpleado, txtId, txtCodigo, mtxtCedula, txtNombre, txtApellido, cboCargo, txtDepartamento, dtpFechaInicio, txtEmail, txtDireccion, txtTelefono);
+            objetoEmpleado.SeleccionarEmpleado(dgvRegistroEmpleado, txtId, mtxtCedula, txtNombre, txtApellido, cboCargo, txtDepartamento, dtpFechaInicio, txtEmail, txtDireccion, txtTelefono, txtSueldoBruto);
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
             int idEmpleado = int.Parse(txtId.Text);
             Clases.Empleado objetoEmpleado = new Clases.Empleado();
-            objetoEmpleado.ModificarEmpleado(idEmpleado, txtCodigo.Text, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text);
+            objetoEmpleado.ModificarEmpleado(idEmpleado, mtxtCedula.Text, txtNombre.Text, txtApellido.Text, cboCargo.Text, txtDepartamento.Text, dtpFechaInicio.Text, txtEmail.Text, txtDireccion.Text, txtTelefono.Text, objetoEmpleado.SueldoBruto = Convert.ToUInt32(txtSueldoBruto.Text));
             objetoEmpleado.MostrarEmpleado(dgvRegistroEmpleado);
         }
 

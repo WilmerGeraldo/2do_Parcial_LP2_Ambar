@@ -28,14 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            label8 = new Label();
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
@@ -43,13 +41,11 @@
             label13 = new Label();
             dtpFechaNomina = new DateTimePicker();
             cboTipoNomina = new ComboBox();
-            txtNúmeroNomina = new TextBox();
             mtxtCedulaEmpleado = new MaskedTextBox();
             txtNombreEmpleado = new TextBox();
             txtApellidoEmpleado = new TextBox();
             txtCargoEmpleado = new TextBox();
             txtDepartamento = new TextBox();
-            txtSueldoBruto = new TextBox();
             txtSeguroSocial = new TextBox();
             txtAFP = new TextBox();
             txtDescuentoCXC = new TextBox();
@@ -60,24 +56,22 @@
             btnRegistrar = new Button();
             dataGridView1 = new DataGridView();
             btnSalir = new Button();
+            groupBox1 = new GroupBox();
+            label8 = new Label();
+            txtCodigoEmpleado = new TextBox();
+            label14 = new Label();
+            label15 = new Label();
+            txtSueldoBruto = new TextBox();
+            btnBuscar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(29, 29);
-            label1.Name = "label1";
-            label1.Size = new Size(89, 19);
-            label1.TabIndex = 0;
-            label1.Text = "Nº. Nómina";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(356, 29);
+            label2.Location = new Point(486, 33);
             label2.Name = "label2";
             label2.Size = new Size(118, 19);
             label2.TabIndex = 0;
@@ -133,21 +127,11 @@
             label7.TabIndex = 0;
             label7.Text = "Departamento";
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(544, 86);
-            label8.Name = "label8";
-            label8.Size = new Size(99, 19);
-            label8.TabIndex = 0;
-            label8.Text = "Sueldo Bruto";
-            // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(793, 29);
+            label9.Location = new Point(789, 31);
             label9.Name = "label9";
             label9.Size = new Size(48, 19);
             label9.TabIndex = 0;
@@ -157,7 +141,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(544, 137);
+            label10.Location = new Point(533, 133);
             label10.Name = "label10";
             label10.Size = new Size(101, 19);
             label10.TabIndex = 0;
@@ -167,7 +151,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(544, 185);
+            label11.Location = new Point(533, 181);
             label11.Name = "label11";
             label11.Size = new Size(35, 19);
             label11.TabIndex = 0;
@@ -177,7 +161,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(544, 231);
+            label12.Location = new Point(533, 227);
             label12.Name = "label12";
             label12.Size = new Size(130, 19);
             label12.TabIndex = 0;
@@ -187,7 +171,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(544, 277);
+            label13.Location = new Point(533, 273);
             label13.Name = "label13";
             label13.Size = new Size(94, 19);
             label13.TabIndex = 0;
@@ -195,27 +179,22 @@
             // 
             // dtpFechaNomina
             // 
+            dtpFechaNomina.Font = new Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpFechaNomina.Format = DateTimePickerFormat.Short;
-            dtpFechaNomina.Location = new Point(847, 28);
+            dtpFechaNomina.Location = new Point(846, 29);
             dtpFechaNomina.Name = "dtpFechaNomina";
             dtpFechaNomina.Size = new Size(122, 23);
             dtpFechaNomina.TabIndex = 3;
             // 
             // cboTipoNomina
             // 
+            cboTipoNomina.Font = new Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cboTipoNomina.FormattingEnabled = true;
             cboTipoNomina.Items.AddRange(new object[] { "Semanal", "Quicenal", "Mensual" });
-            cboTipoNomina.Location = new Point(480, 28);
+            cboTipoNomina.Location = new Point(610, 30);
             cboTipoNomina.Name = "cboTipoNomina";
-            cboTipoNomina.Size = new Size(201, 23);
+            cboTipoNomina.Size = new Size(151, 23);
             cboTipoNomina.TabIndex = 2;
-            // 
-            // txtNúmeroNomina
-            // 
-            txtNúmeroNomina.Location = new Point(124, 27);
-            txtNúmeroNomina.Name = "txtNúmeroNomina";
-            txtNúmeroNomina.Size = new Size(129, 23);
-            txtNúmeroNomina.TabIndex = 1;
             // 
             // mtxtCedulaEmpleado
             // 
@@ -254,37 +233,30 @@
             txtDepartamento.Size = new Size(190, 23);
             txtDepartamento.TabIndex = 8;
             // 
-            // txtSueldoBruto
-            // 
-            txtSueldoBruto.Location = new Point(651, 83);
-            txtSueldoBruto.Name = "txtSueldoBruto";
-            txtSueldoBruto.Size = new Size(190, 23);
-            txtSueldoBruto.TabIndex = 9;
-            // 
             // txtSeguroSocial
             // 
-            txtSeguroSocial.Location = new Point(651, 135);
+            txtSeguroSocial.Location = new Point(640, 131);
             txtSeguroSocial.Name = "txtSeguroSocial";
             txtSeguroSocial.Size = new Size(190, 23);
             txtSeguroSocial.TabIndex = 10;
             // 
             // txtAFP
             // 
-            txtAFP.Location = new Point(651, 183);
+            txtAFP.Location = new Point(640, 179);
             txtAFP.Name = "txtAFP";
             txtAFP.Size = new Size(190, 23);
             txtAFP.TabIndex = 11;
             // 
             // txtDescuentoCXC
             // 
-            txtDescuentoCXC.Location = new Point(681, 228);
+            txtDescuentoCXC.Location = new Point(670, 224);
             txtDescuentoCXC.Name = "txtDescuentoCXC";
             txtDescuentoCXC.Size = new Size(190, 23);
             txtDescuentoCXC.TabIndex = 12;
             // 
             // txtSueldoNeto
             // 
-            txtSueldoNeto.Location = new Point(651, 275);
+            txtSueldoNeto.Location = new Point(640, 271);
             txtSueldoNeto.Name = "txtSueldoNeto";
             txtSueldoNeto.Size = new Size(190, 23);
             txtSueldoNeto.TabIndex = 13;
@@ -368,6 +340,85 @@
             btnSalir.UseVisualStyleBackColor = false;
             btnSalir.Click += btnSalir_Click;
             // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(btnBuscar);
+            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(label15);
+            groupBox1.Controls.Add(txtSueldoBruto);
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(txtCodigoEmpleado);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(cboTipoNomina);
+            groupBox1.Controls.Add(dtpFechaNomina);
+            groupBox1.Controls.Add(label9);
+            groupBox1.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1.Location = new Point(12, 4);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(974, 366);
+            groupBox1.TabIndex = 19;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Registro de Nomina Empleado";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(6, 33);
+            label8.Name = "label8";
+            label8.Size = new Size(128, 19);
+            label8.TabIndex = 0;
+            label8.Text = "Código Empleado";
+            // 
+            // txtCodigoEmpleado
+            // 
+            txtCodigoEmpleado.Font = new Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCodigoEmpleado.Location = new Point(140, 32);
+            txtCodigoEmpleado.Name = "txtCodigoEmpleado";
+            txtCodigoEmpleado.Size = new Size(96, 23);
+            txtCodigoEmpleado.TabIndex = 1;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(521, 82);
+            label14.Name = "label14";
+            label14.Size = new Size(99, 19);
+            label14.TabIndex = 16;
+            label14.Text = "Sueldo Bruto";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(576, 78);
+            label15.Margin = new Padding(2, 0, 2, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(0, 23);
+            label15.TabIndex = 14;
+            // 
+            // txtSueldoBruto
+            // 
+            txtSueldoBruto.Font = new Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSueldoBruto.Location = new Point(628, 80);
+            txtSueldoBruto.Margin = new Padding(2);
+            txtSueldoBruto.Name = "txtSueldoBruto";
+            txtSueldoBruto.Size = new Size(145, 23);
+            txtSueldoBruto.TabIndex = 15;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.BackColor = Color.DarkOrange;
+            btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatStyle = FlatStyle.System;
+            btnBuscar.Font = new Font("Calibri", 11.25F, FontStyle.Bold);
+            btnBuscar.Location = new Point(246, 30);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(83, 27);
+            btnBuscar.TabIndex = 17;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = false;
+            // 
             // frmNomina
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -387,42 +438,34 @@
             Controls.Add(txtDescuentoCXC);
             Controls.Add(txtAFP);
             Controls.Add(txtSeguroSocial);
-            Controls.Add(txtSueldoBruto);
             Controls.Add(txtNombreEmpleado);
             Controls.Add(mtxtCedulaEmpleado);
-            Controls.Add(txtNúmeroNomina);
-            Controls.Add(cboTipoNomina);
-            Controls.Add(dtpFechaNomina);
             Controls.Add(label13);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(label10);
-            Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(label9);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(groupBox1);
             Name = "frmNomina";
             Text = "Nomina";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
         private Label label7;
-        private Label label8;
         private Label label9;
         private Label label10;
         private Label label11;
@@ -430,13 +473,11 @@
         private Label label13;
         private DateTimePicker dtpFechaNomina;
         private ComboBox cboTipoNomina;
-        private TextBox txtNúmeroNomina;
         private MaskedTextBox mtxtCedulaEmpleado;
         private TextBox txtNombreEmpleado;
         private TextBox txtApellidoEmpleado;
         private TextBox txtCargoEmpleado;
         private TextBox txtDepartamento;
-        private TextBox txtSueldoBruto;
         private TextBox txtSeguroSocial;
         private TextBox txtAFP;
         private TextBox txtDescuentoCXC;
@@ -447,5 +488,12 @@
         private Button btnRegistrar;
         private DataGridView dataGridView1;
         private Button btnSalir;
+        private GroupBox groupBox1;
+        private Label label8;
+        private TextBox txtCodigoEmpleado;
+        private Label label14;
+        private Label label15;
+        private TextBox txtSueldoBruto;
+        private Button btnBuscar;
     }
 }

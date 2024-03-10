@@ -14,7 +14,6 @@ namespace _2do_Parcial_LP2.Clases
     internal class Empleado
     {
         private int idEmpleado {  get; set; }
-        private string CodigoEmpleado { get; set; } = null!;
         private string Cedula { get; set; } = null!;
         private string Nombre { get; set; } = null!;
         private string Apellido { get; set; } = null!;
@@ -25,17 +24,16 @@ namespace _2do_Parcial_LP2.Clases
         private string Email { get; set; } = null!;
         private string Direccion { get; set; } = null!;
         private string Telefono { get; set; } = null!;
+        public decimal SueldoBruto { get; set; }
 
 
-
-
-        public void RegistrarEmpleado(string CodigoEmpleado,string Cedula ,string nombre, string apellido,string cargo,string departamento, string FechaInicio,string Email,string direccion, string telefono)
+        public void RegistrarEmpleado(string Cedula ,string nombre, string apellido,string cargo,string departamento, string FechaInicio,string Email,string direccion, string telefono, decimal sueldo)
         {
             try
             {
                 ConexionAmbarDB objetoConexion = new ConexionAmbarDB();
-                String query = "insert into empleado (CodigoEmpleado,Cedula,Nombre,Apellido,Cargo,Departamento,FechaInicioEmpleo,Email,Direccion,Telefono) " +
-                    "values('" + CodigoEmpleado + "','" + Cedula + "','" + nombre + "','" + apellido + "','" + cargo + "','" + departamento + "','" + FechaInicio + "','" + Email + "','" + direccion + "','" + telefono + "');";
+                String query = "insert into empleado (Cedula,Nombre,Apellido,Cargo,Departamento,FechaInicioEmpleo,Email,Direccion,Telefono, SueldoBruto) " +
+                    "values('" + Cedula + "','" + nombre + "','" + apellido + "','" + cargo + "','" + departamento + "','" + FechaInicio + "','" + Email + "','" + direccion + "','" + telefono + "','" + sueldo + "');";
 
                 MySqlCommand myComand = new MySqlCommand(query, objetoConexion.EstablecerConexion());
                 myComand.ExecuteNonQuery();
@@ -69,22 +67,22 @@ namespace _2do_Parcial_LP2.Clases
                 MessageBox.Show(ex.ToString(), "No se mostraron los datos, Error: ");
             }
         }
-        public void SeleccionarEmpleado(DataGridView tablaEmpleado,TextBox id, TextBox CodigoEmpleado, MaskedTextBox Cedula, TextBox Nombre, TextBox Apellido, ComboBox Cargo, TextBox Departamento, DateTimePicker FechaInicio, TextBox Email, TextBox Direccion, TextBox Telefono)
+        public void SeleccionarEmpleado(DataGridView tablaEmpleado,TextBox id, MaskedTextBox Cedula, TextBox Nombre, TextBox Apellido, ComboBox Cargo, TextBox Departamento, DateTimePicker FechaInicio, TextBox Email, TextBox Direccion, TextBox Telefono, TextBox SueldoBruto)
         {
 
             try
             {
                 id.Text = tablaEmpleado.CurrentRow.Cells[0].Value.ToString();
-                CodigoEmpleado.Text = tablaEmpleado.CurrentRow.Cells[1].Value.ToString();
-                Cedula.Text = tablaEmpleado.CurrentRow.Cells[2].Value.ToString();
-                Nombre.Text = tablaEmpleado.CurrentRow.Cells[3].Value.ToString();
-                Apellido.Text = tablaEmpleado.CurrentRow.Cells[4].Value.ToString();
-                Cargo.Text = tablaEmpleado.CurrentRow.Cells[5].Value.ToString();
-                Departamento.Text = tablaEmpleado.CurrentRow.Cells[6].Value.ToString();
-                FechaInicio.Text = tablaEmpleado.CurrentRow.Cells[7].Value.ToString();
-                Email.Text = tablaEmpleado.CurrentRow.Cells[8].Value.ToString();
-                Direccion.Text = tablaEmpleado.CurrentRow.Cells[9].Value.ToString();
-                Telefono.Text = tablaEmpleado.CurrentRow.Cells[10].Value.ToString();
+                Cedula.Text = tablaEmpleado.CurrentRow.Cells[1].Value.ToString();
+                Nombre.Text = tablaEmpleado.CurrentRow.Cells[2].Value.ToString();
+                Apellido.Text = tablaEmpleado.CurrentRow.Cells[3].Value.ToString();
+                Cargo.Text = tablaEmpleado.CurrentRow.Cells[4].Value.ToString();
+                Departamento.Text = tablaEmpleado.CurrentRow.Cells[5].Value.ToString();
+                FechaInicio.Text = tablaEmpleado.CurrentRow.Cells[6].Value.ToString();
+                Email.Text = tablaEmpleado.CurrentRow.Cells[7].Value.ToString();
+                Direccion.Text = tablaEmpleado.CurrentRow.Cells[8].Value.ToString();
+                Telefono.Text = tablaEmpleado.CurrentRow.Cells[9].Value.ToString();
+                SueldoBruto.Text = tablaEmpleado.CurrentRow.Cells[10].Value.ToString();
             }
 
             catch (Exception ex)
@@ -94,13 +92,13 @@ namespace _2do_Parcial_LP2.Clases
 
         }
 
-        public void ModificarEmpleado(int id,string CodigoEmpleado, string Cedula, string nombre, string apellido, string cargo, string departamento, string FechaInicio, string Email, string direccion, string telefono)
+        public void ModificarEmpleado(int id, string Cedula, string nombre, string apellido, string cargo, string departamento, string FechaInicio, string Email, string direccion, string telefono, decimal sueldo)
         {
             try
             {
                 ConexionAmbarDB objetoConexion = new ConexionAmbarDB();
-                String query = "update empleado set CodigoEmpleado='"+CodigoEmpleado+"',Cedula='" + Cedula +"', Nombre='" +
-                    nombre + "', Apellido='" + apellido + "', Cargo='" + cargo +"', Departamento='" + departamento + "', FechaInicioEmpleo='" + FechaInicio + "', Email='" + Email + "', Direccion='" + direccion + "', Telefono='" + telefono +   "'where idEmpleado ='" + id + "';";
+                String query = "update empleado set Cedula='" + Cedula +"', Nombre='" + nombre + "', Apellido='" + apellido + "', Cargo='" + cargo +"', Departamento='" + departamento + "', " +
+                    "FechaInicioEmpleo='" + FechaInicio + "', Email='" + Email + "', Direccion='" + direccion + "', Telefono='" + telefono + "', SueldoBruto='" + sueldo + "'where idEmpleado ='" + id + "';";
 
                 MySqlCommand myComand = new MySqlCommand(query, objetoConexion.EstablecerConexion());
                 myComand.ExecuteNonQuery();
